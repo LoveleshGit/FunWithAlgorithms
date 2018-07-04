@@ -28,13 +28,13 @@ public class LinkedList {
     }
 
     public void createLoopAtLastKth(int lastKth) {
-        Node loopNode=null;
         Node temp = head;
+        Node loopNode=head;
         while(temp.next != null) {
             temp = temp.next;
             lastKth--;
             if(lastKth<=0) {
-                loopNode = temp;
+                loopNode = loopNode.next;
             }
         }
         temp.next = loopNode;

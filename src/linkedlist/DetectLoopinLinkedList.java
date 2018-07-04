@@ -10,7 +10,8 @@ public class DetectLoopinLinkedList {
         list.insert(3);
         list.insert(4);
         head = list.insert(5);
-        list.createLoopAtLastKth(2);
+        list.createLoopAtLastKth(3);
+//        list.print();
         System.out.println(new DetectLoopinLinkedList().detectLoop(head));
     }
 
