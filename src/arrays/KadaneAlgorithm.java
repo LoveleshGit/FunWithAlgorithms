@@ -2,6 +2,7 @@ package arrays;
 
 /**
  * Kadane's Algorithm for finding largest sum contiguous sub array
+ * @author lovelesh
  */
 
 public class KadaneAlgorithm {
