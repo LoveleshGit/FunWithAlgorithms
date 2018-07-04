@@ -26,4 +26,17 @@ public class LinkedList {
         }
         System.out.println();
     }
+
+    public void createLoopAtLastKth(int lastKth) {
+        Node loopNode=null;
+        Node temp = head;
+        while(temp.next != null) {
+            temp = temp.next;
+            lastKth--;
+            if(lastKth<=0) {
+                loopNode = temp;
+            }
+        }
+        temp.next = loopNode;
+    }
 }
