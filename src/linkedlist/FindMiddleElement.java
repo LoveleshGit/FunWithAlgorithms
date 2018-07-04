@@ -1,18 +1,19 @@
 package linkedlist;
 
-public class FindMiddleElement {
+public class FindMiddleElement extends LinkedList{
 
     public static void main(String...args) {
 
-        Node list = new Node();
+        Node head;
         FindMiddleElement obj = new FindMiddleElement();
-        obj.insert(list,1);
-        obj.insert(list,2);
-        obj.insert(list,3);
-        obj.insert(list,4);
-        obj.insert(list,5);
-        obj.print(list);
-        System.out.println(obj.findMiddle(list));
+        LinkedList list = new LinkedList();
+        list.insert(1);
+        list.insert(2);
+        list.insert(3);
+        list.insert(4);
+        head = list.insert(5);
+        list.print();
+        System.out.println(obj.findMiddle(head));
 
     }
 
@@ -27,29 +28,5 @@ public class FindMiddleElement {
                 tortoise = tortoise.next;
         }
         return tortoise.data;
-    }
-
-    public void insert(Node head,int data) {
-        Node temp = head;
-        while(temp.next != null) {
-            temp = temp.next;
-        }
-        temp.next = new Node();
-        temp.next.data = data;
-    }
-
-    public void print(Node head) {
-        Node temp = head.next;
-
-        while(temp != null) {
-            System.out.print(temp.data+" ");
-            temp = temp.next;
-        }
-        System.out.println();
-    }
-
-    static class Node {
-        int data;
-        Node next;
     }
 }
