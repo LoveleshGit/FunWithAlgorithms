@@ -10,7 +10,7 @@ public class FindMiddleElement extends LinkedList{
         list.insert(1);
         list.insert(2);
         list.insert(3);
-        list.insert(4);
+        head = list.insert(4);
         head = list.insert(5);
         list.print();
         System.out.println(obj.findMiddle(head));

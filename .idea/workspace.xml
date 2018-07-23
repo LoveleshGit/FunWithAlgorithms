@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbb33400-c4c2-434b-81d5-b93c48571d49" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/CommonNodeBetwTwoLinkList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/DeleteNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/DoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/DoublyNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/linkedlist/MergeTwoLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trees/CloneABinaryTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/linkedlist/RemoveLoopFromLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/RemoveLoopFromLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/FindMiddleElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/FindMiddleElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/linkedlist/LinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -15,29 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="KadaneAlgorithm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/KadaneAlgorithm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SortArray012.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/arrays/SortArray012.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FindMiddleElement.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linkedlist/FindMiddleElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="204">
+              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -45,20 +34,35 @@
       <file leaf-file-name="DetectLoopinLinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectLoopinLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="187">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RemoveLoopFromLinkedList.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/linkedlist/RemoveLoopFromLinkedList.java">
+      <file leaf-file-name="DeleteNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/DeleteNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+            <state relative-caret-position="102">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CloneABinaryTree.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/trees/CloneABinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#544#553#0" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#652#653#0" expanded="true" />
+                <element signature="e#679#680#0" expanded="true" />
+                <element signature="e#713#714#0" expanded="true" />
+                <element signature="e#741#742#0" expanded="true" />
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#252#253#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,17 +71,42 @@
       <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="476">
+              <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+              <folding>
+                <element signature="e#87#88#0" expanded="true" />
+                <element signature="e#120#121#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/linkedlist/Node.java">
+      <file leaf-file-name="RemoveLoopFromLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/RemoveLoopFromLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+            <state relative-caret-position="510">
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DoublyLinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/DoublyLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonNodeBetwTwoLinkList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/linkedlist/CommonNodeBetwTwoLinkList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,10 +130,16 @@
         <option value="$PROJECT_DIR$/src/arrays/KadaneAlgorithm.java" />
         <option value="$PROJECT_DIR$/src/arrays/SortArray012.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/Node.java" />
-        <option value="$PROJECT_DIR$/src/linkedlist/FindMiddleElement.java" />
-        <option value="$PROJECT_DIR$/src/linkedlist/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/linkedlist/DetectLoopinLinkedList.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/RemoveLoopFromLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/FindMiddleElement.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/MergeTwoLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/CommonNodeBetwTwoLinkList.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/DoublyNode.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/DoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/DetectLoopinLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/DeleteNode.java" />
+        <option value="$PROJECT_DIR$/src/linkedlist/LinkedList.java" />
+        <option value="$PROJECT_DIR$/src/trees/CloneABinaryTree.java" />
       </list>
     </option>
   </component>
@@ -142,7 +177,7 @@
               <item name="FunWithAlgorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="FunWithAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="trees" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -154,9 +189,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -170,9 +207,31 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveLoopFromLinkedList">
-    <configuration name="DetectLoopinLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.DetectLoopinLinkedList" />
+  <component name="RunManager" selected="Application.CloneABinaryTree">
+    <configuration name="CloneABinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.CloneABinaryTree" />
+      <module name="FunWithAlgorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CommonNodeBetwTwoLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.CommonNodeBetwTwoLinkList" />
+      <module name="FunWithAlgorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="DeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="linkedlist.DeleteNode" />
       <module name="FunWithAlgorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -193,17 +252,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="KadaneAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.KadaneAlgorithm" />
-      <module name="FunWithAlgorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="RemoveLoopFromLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="linkedlist.RemoveLoopFromLinkedList" />
       <module name="FunWithAlgorithms" />
@@ -211,17 +259,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="SortArray012" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.SortArray012" />
-      <module name="FunWithAlgorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -268,19 +305,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.KadaneAlgorithm" />
-      <item itemvalue="Application.SortArray012" />
       <item itemvalue="Application.FindMiddleElement" />
-      <item itemvalue="Application.DetectLoopinLinkedList" />
       <item itemvalue="Application.RemoveLoopFromLinkedList" />
+      <item itemvalue="Application.CommonNodeBetwTwoLinkList" />
+      <item itemvalue="Application.DeleteNode" />
+      <item itemvalue="Application.CloneABinaryTree" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveLoopFromLinkedList" />
-        <item itemvalue="Application.DetectLoopinLinkedList" />
+        <item itemvalue="Application.CloneABinaryTree" />
+        <item itemvalue="Application.DeleteNode" />
+        <item itemvalue="Application.CommonNodeBetwTwoLinkList" />
         <item itemvalue="Application.FindMiddleElement" />
-        <item itemvalue="Application.SortArray012" />
-        <item itemvalue="Application.KadaneAlgorithm" />
+        <item itemvalue="Application.RemoveLoopFromLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +364,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="57" y="25" width="1309" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
@@ -338,44 +375,25 @@
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.32755905" />
-      <window_info anchor="bottom" id="Version Control" order="2" weight="0.32913387" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.328594" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24963397" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info id="UI Designer" order="1" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39968404" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Google Cloud Storage" order="1" />
-      <window_info id="Designer" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
-      <window_info anchor="right" id="Capture Analysis" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.328594" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.328594" />
-      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Version Control" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.328594" />
       <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="0" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24980901" />
+      <window_info anchor="right" id="Google Cloud Storage" order="1" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39968404" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="right" id="Palette&#9;" order="2" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39968404" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24980901" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -389,49 +407,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="creating loop in linked list" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectLoopinLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/FindingMissingNumber.java" />
-    <entry file="file://$PROJECT_DIR$/src/arrays/SortArray012.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/KadaneAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/FindMiddleElement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -667,6 +642,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/FindingMissingNumber.java" />
+    <entry file="file://$PROJECT_DIR$/src/arrays/KadaneAlgorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/SortArray012.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -674,48 +656,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/KadaneAlgorithm.java">
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/FindMiddleElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="22" selection-start-line="99" selection-start-column="22" selection-end-line="99" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/MergeTwoLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/Node.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/FindMiddleElement.java">
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/DoublyNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkedList.java">
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/DoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectLoopinLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="272">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/RemoveLoopFromLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" column="30" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="30" />
+        <state relative-caret-position="510">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/CommonNodeBetwTwoLinkList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="66" column="26" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#544#553#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectLoopinLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/linkedlist/DeleteNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/CloneABinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="35" column="59" lean-forward="true" selection-start-line="35" selection-start-column="59" selection-end-line="35" selection-end-column="59" />
+          <folding>
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+            <element signature="e#679#680#0" expanded="true" />
+            <element signature="e#713#714#0" expanded="true" />
+            <element signature="e#741#742#0" expanded="true" />
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="true" />
           </folding>
         </state>
       </provider>
