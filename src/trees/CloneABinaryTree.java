@@ -62,6 +62,7 @@ class TreeNode {
     private Integer data;
     private TreeNode left;
     private TreeNode right;
+    private int pos;    // used for vertical sum problem
 
     public Integer getData() {
         return data;
@@ -73,6 +74,14 @@ class TreeNode {
 
     public TreeNode getRight() {
         return right;
+    }
+
+    public Integer getPos() {
+        return pos;
+    }
+
+    public void setPos(int pos) {
+        this.pos = pos;
     }
 
     TreeNode(int key) {
