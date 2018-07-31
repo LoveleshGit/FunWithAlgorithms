@@ -177,6 +177,6 @@ class TreeNode {
             left.postOrder();
         if(right != null)
             right.postOrder();
-        System.out.println(data+" ");
+        System.out.print(data+" ");
     }
 }

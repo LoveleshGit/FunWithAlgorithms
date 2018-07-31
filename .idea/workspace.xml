@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dbb33400-c4c2-434b-81d5-b93c48571d49" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/arrays/AddNumberToArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trees/LevelOrderTraversal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/trees/TreeTraversalsIterative.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/FunWithAlgorithms/trees/TreeNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/FunWithAlgorithms/trees/TreeNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/trees/CloneABinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/trees/CloneABinaryTree.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +36,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddNumberToArray.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AddNumberToArray.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/arrays/AddNumberToArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="170">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LevelOrderTraversal.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/trees/LevelOrderTraversal.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TreeTraversalsIterative.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/trees/TreeTraversalsIterative.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CloneABinaryTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/trees/CloneABinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="174" column="9" selection-start-line="174" selection-start-column="9" selection-end-line="174" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -118,8 +151,10 @@
         <option value="$PROJECT_DIR$/src/linkedlist/DetectLoopinLinkedList.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/DeleteNode.java" />
         <option value="$PROJECT_DIR$/src/linkedlist/LinkedList.java" />
-        <option value="$PROJECT_DIR$/src/trees/CloneABinaryTree.java" />
         <option value="$PROJECT_DIR$/src/arrays/AddNumberToArray.java" />
+        <option value="$PROJECT_DIR$/src/trees/LevelOrderTraversal.java" />
+        <option value="$PROJECT_DIR$/src/trees/CloneABinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/trees/TreeTraversalsIterative.java" />
       </list>
     </option>
   </component>
@@ -135,8 +170,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,18 +184,6 @@
               <item name="FunWithAlgorithms" type="b2602c69:ProjectViewProjectNode" />
               <item name="FunWithAlgorithms" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FunWithAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FunWithAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FunWithAlgorithms" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FunWithAlgorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FunWithAlgorithms" type="b2602c69:ProjectViewProjectNode" />
@@ -178,7 +202,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -200,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AddNumberToArray">
+  <component name="RunManager" selected="Application.TreeTraversalsIterative">
     <configuration name="AddNumberToArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.AddNumberToArray" />
       <module name="FunWithAlgorithms" />
@@ -223,28 +246,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CommonNodeBetwTwoLinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.CommonNodeBetwTwoLinkList" />
-      <module name="FunWithAlgorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="DeleteNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="linkedlist.DeleteNode" />
-      <module name="FunWithAlgorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linkedlist.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="KadaneAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arrays.KadaneAlgorithm" />
       <module name="FunWithAlgorithms" />
@@ -252,6 +253,28 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LevelOrderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.LevelOrderTraversal" />
+      <module name="FunWithAlgorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trees.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="TreeTraversalsIterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="trees.TreeTraversalsIterative" />
+      <module name="FunWithAlgorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="trees.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -298,19 +321,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.CommonNodeBetwTwoLinkList" />
-      <item itemvalue="Application.DeleteNode" />
       <item itemvalue="Application.CloneABinaryTree" />
       <item itemvalue="Application.KadaneAlgorithm" />
       <item itemvalue="Application.AddNumberToArray" />
+      <item itemvalue="Application.LevelOrderTraversal" />
+      <item itemvalue="Application.TreeTraversalsIterative" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeTraversalsIterative" />
+        <item itemvalue="Application.LevelOrderTraversal" />
         <item itemvalue="Application.AddNumberToArray" />
         <item itemvalue="Application.KadaneAlgorithm" />
         <item itemvalue="Application.CloneABinaryTree" />
-        <item itemvalue="Application.DeleteNode" />
-        <item itemvalue="Application.CommonNodeBetwTwoLinkList" />
       </list>
     </recent_temporary>
   </component>
@@ -362,17 +385,18 @@
     <layout>
       <window_info anchor="right" id="Palette" order="5" />
       <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Messages" order="3" weight="0.328594" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="4" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.328594" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.328594" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.328594" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.24980901" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24980901" />
       <window_info anchor="right" id="Google Cloud Storage" order="1" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
@@ -386,7 +410,6 @@
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Messages" order="3" weight="0.328594" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -400,56 +423,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="creating loop in linked list" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectLoopinLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/FindingMissingNumber.java" />
-    <entry file="file://$PROJECT_DIR$/src/arrays/SortArray012.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/arrays/KadaneAlgorithm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/FindMiddleElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedlist/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" column="41" selection-start-line="36" selection-start-column="41" selection-end-line="36" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/DetectLoopinLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -705,13 +678,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/trees/CloneABinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlist/DeleteNode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -733,10 +699,72 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/arrays/AddNumberToArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="192" column="17" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="84" column="27" lean-forward="true" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1119">
+          <caret line="164" column="11" selection-start-line="164" selection-start-column="11" selection-end-line="164" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="198" column="6" selection-start-line="198" selection-start-column="6" selection-end-line="198" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/LevelOrderTraversal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/CloneABinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="174" column="9" selection-start-line="174" selection-start-column="9" selection-end-line="174" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/trees/TreeTraversalsIterative.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="31" column="20" lean-forward="true" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
         </state>
       </provider>
     </entry>
