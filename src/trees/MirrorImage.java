@@ -13,9 +13,9 @@ public class MirrorImage {
         tree1.insert(10);
         tree1.insert(2);
         tree1.insert(9);
-        tree1.insert(19);
+        tree1.insert(18);
 
-        int mirror = new MirrorImage().findMirrorImgIterative(tree1,9);
+        int mirror = new MirrorImage().findMirrorImgIterative(tree1,18);
         System.out.println("Mirror Image: "+mirror);
 
     }
@@ -58,7 +58,6 @@ public class MirrorImage {
                 nodeCount--;
             }
 
-            System.out.println(treeArray.toString());
             if(treeArray.contains(key)) {
                 int index = treeArray.indexOf(key);
                 return treeArray.get((treeArray.size() - 1) - index);

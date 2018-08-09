@@ -11,6 +11,10 @@ public class LinkedList {
         this.head = head;
     }
 
+    public Node getHead() {
+        return head;
+    }
+
     public Node insert(int data) {
         Node temp = head;
         while(temp.next != null) {
